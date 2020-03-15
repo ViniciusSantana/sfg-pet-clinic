@@ -21,12 +21,12 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
 
     @Override
     public Owner save(Owner object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
     public void delete(Owner object) {
-        super.delte(object);
+        super.delete(object);
 
     }
 
